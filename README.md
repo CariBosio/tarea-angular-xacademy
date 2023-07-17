@@ -42,7 +42,7 @@ ________________________________________________________________________________
 **A )** Crear un nuevo proyecto de Angular. <br/>
      &emsp; **▫**Opcional: Utilizar ng add para añadir Angular Material.<br/>
 **B )** En el componente principal crear un arreglo que contenga nombres (string) y costos (string), y utilizar un *ngFor para mostrar una lista con los nombres y costos.<br/>
-Opcional: En vez de utilizar los tipos por defecto crear una interfaz.<br/>
+&emsp; **▫**Opcional: En vez de utilizar los tipos por defecto crear una interfaz.<br/>
 **C )** Crear un botón que nos permita ocultar o mostrar la lista utilizando un *ngIf (Advertencia una etiqueta HTML no puede tener *ngIf y *ngFor van a tener que hacer un wraper al rededor de la lista para utilizar el *ngFor).<br/>
      &emsp; **▫**Opcional: Que el botón sea de Angular material.
 
