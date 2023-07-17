@@ -8,17 +8,10 @@ body {
   display: grid;
   place-items: center;
 
-
-
   & .container {
     display: grid;
     place-items: center;
     justify-content: center;
-
-    & .tienda {
-      font-size: 3rem;
-      padding: 1rem;
-    }
 
     & mat-toolbar {
       width: 600px;
@@ -26,6 +19,11 @@ body {
       place-items: center;
       height: auto;
       border-radius: 1rem 1rem 0 0;
+
+      & .tienda {
+        font-size: 3rem;
+        padding: 1rem;
+      }
     }
 
     & mat-card {
@@ -44,27 +42,13 @@ body {
         border-collapse: collapse;
         margin: 1rem;
 
-
         & .table-cell {
           border: 1px solid black;
           padding: 15px 100px;
           width: 150px;
 
         }
-        // & .table-cell-precio {
-        //   border: 1px solid black;
-        //   padding: 15px;
-        //   width: 150px;
-
-        // }
       }
-
-
     }
-
-
   }
-
-
-
 }
