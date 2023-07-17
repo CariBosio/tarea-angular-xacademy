@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 ## 📈[Instructions](url)
 
-**A )** Crear un nuevo proyecto de Angular.
+**A )** Crear un nuevo proyecto de Angular. <br/>
     **▫**Opcional: Utilizar ng add para añadir Angular Material.
 **B )** En el componente principal crear un arreglo que contenga nombres (string) y costos (string), y utilizar un *ngFor para mostrar una lista con los nombres y costos.
 Opcional: En vez de utilizar los tipos por defecto crear una interfaz.
