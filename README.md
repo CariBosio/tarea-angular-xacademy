@@ -16,6 +16,7 @@ ________________________________________________________________________________
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
     <li><a href="#instructions">Instructions</a></li>
+    <li><a href="#project-view">Project view</a></li>
 </ol>
 
 ___________________________________________________________________________________________________________________________________________________________
@@ -45,10 +46,13 @@ Opcional: En vez de utilizar los tipos por defecto crear una interfaz.<br/>
 **C )** Crear un botón que nos permita ocultar o mostrar la lista utilizando un *ngIf (Advertencia una etiqueta HTML no puede tener *ngIf y *ngFor van a tener que hacer un wraper al rededor de la lista para utilizar el *ngFor).<br/>
       **▫**Opcional: Que el botón sea de Angular material.
 
+___________________________________________________________________________________________________________________________________________________________
 
+## 📈[Project view](url)
 
+![1](https://github.com/CariBosio/tarea-angular-xacademy/assets/88099562/63971bdd-6cb9-46ea-9cfc-48f4ce12cbd7)
 
-
+![2](https://github.com/CariBosio/tarea-angular-xacademy/assets/88099562/f592d223-466b-45f7-8cce-511d405b094b)
 
 
 
