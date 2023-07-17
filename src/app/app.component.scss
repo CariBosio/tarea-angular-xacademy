@@ -1,0 +1,70 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  width: 97vw;
+  min-height: 97vh;
+  background: url(../assets/verduras.jpg) no-repeat center center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+
+
+
+  & .container {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+
+    & .tienda {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+
+    & mat-toolbar {
+      width: 600px;
+      display: grid;
+      place-items: center;
+      height: auto;
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    & mat-card {
+      display: grid;
+      place-items: center;
+      justify-content: center;
+      width: 600px;
+      margin: 0 10px;
+      border-radius: 0 0 1rem 1rem;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(255, 255, 255, 0.27);
+      border: 1px solid rgba(209, 213, 219, 0.3);
+
+      & table {
+        border-collapse: collapse;
+        margin: 1rem;
+
+
+        & .table-cell {
+          border: 1px solid black;
+          padding: 15px 100px;
+          width: 150px;
+
+        }
+        // & .table-cell-precio {
+        //   border: 1px solid black;
+        //   padding: 15px;
+        //   width: 150px;
+
+        // }
+      }
+
+
+    }
+
+
+  }
+
+
+
+}
